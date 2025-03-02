@@ -70,7 +70,7 @@ Configure Environment Variables:
 
 Create a .env file in the backend folder with the following content (adjust the values as needed):
 
-DATABASE_URL=postgresql://myuser:mypassword@localhost:5432/mydb
+DATABASE_URL=postgresql://[replacewithmyuser]:[replacewithmypassword]@[replacewithmylocalhost]/[replacewithmydb]
 ACCESS_SECRET_KEY=dummy_access_secret
 RESET_PASSWORD_SECRET_KEY=dummy_reset_secret
 VERIFICATION_SECRET_KEY=dummy_verification_secret
