@@ -1,0 +1,15 @@
+# FedML and PyTorch dependencies
+fedml==0.9.6
+torch==2.0.1
+numpy>=1.21.0
+
+# FastAPI and backend dependencies
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+sqlalchemy==2.0.19
+pydantic==1.10.7
+python-dotenv==1.0.0
+asyncpg==0.27.0
+passlib[bcrypt]==1.7.4
+PyJWT==2.6.0
+psycopg2-binary==2.9.6
